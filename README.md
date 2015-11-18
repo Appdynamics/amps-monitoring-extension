@@ -5,7 +5,7 @@ This extension works only with the standalone machine agent.
 
 ## Use Case
 
-AMPS is an AMPS is a modern publish and subscribe engine designed specifically for next generation computing environments. It is intended to allow the realization of the scalable high-throughput, low-latency messaging that is required in real-time deployments such as in financial services. This extension allows the user to connect to an AMPS server and retrieve metrics about the performance of the host for the server and the AMPS server instance.  
+AMPS is a modern publish and subscribe engine designed specifically for next generation computing environments. It is intended to allow the realization of the scalable high-throughput, low-latency messaging that is required in real-time deployments such as in financial services. This extension allows the user to connect to an AMPS server and retrieve metrics about the performance of the host for the server and the AMPS server instance.  
 
 ## Installation
 
@@ -132,7 +132,7 @@ Always feel free to fork and contribute any changes directly here on GitHub.
 
 ##Community
 
-Find out more in the [AppSphere]() community.
+Find out more in the [AppSphere](https://www.appdynamics.com/community/exchange/extension/amps-monitoring-extension/) community.
 
 ##Support
 
