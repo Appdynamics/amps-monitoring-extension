@@ -1,0 +1,28 @@
+package com.appdynamics.extensions.amps;
+
+
+import com.singularity.ee.agent.systemagent.api.TaskExecutionContext;
+import com.singularity.ee.agent.systemagent.api.exception.TaskExecutionException;
+import org.junit.Test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class AMPSMonitorTest {
+
+    @Test
+    public void runSuccessfullyWhenGivenEncryptedPassword() throws TaskExecutionException {
+        Map<String, String> taskArgs = getMap();
+        AMPSMonitor monitor = new AMPSMonitor();
+        monitor.execute(taskArgs,new TaskExecutionContext());
+    }
+
+    private Map<String, String> getMap() {
+        Map<String,String> taskArgs = new HashMap<String,String>();
+
+        taskArgs.put("config-file","src/test/resources/conf/config.yml");
+        return taskArgs;
+    }
+
+}
+
